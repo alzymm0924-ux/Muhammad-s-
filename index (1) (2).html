@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أكاديمية الأجنحة الملكية للطيران | التسجيل لدفعة 2026-2027</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Aviation & Academic Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Cairo & Tajawal -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        royalBlue: '#0b1d3a',
+                        royalGold: '#d4af37',
+                        royalLight: '#f4f6f9',
+                        goldHover: '#c5a028',
+                        blueHover: '#071224'
+                    },
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                        tajawal: ['Tajawal', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(11, 29, 58, 0.95) 0%, rgba(15, 39, 75, 0.85) 100%), url('https://placehold.co/1920x1080/0b1d3a/d4af37?text=Royal+Wings+Aviation') center/cover no-repeat;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #aa820a 100%);
+        }
+        .gold-border {
+            border-color: #d4af37;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-royalGold selection:text-royalBlue">
+
+    <!-- Navbar -->
+    <nav class="bg-royalBlue text-white sticky top-0 z-50 shadow-xl border-b border-royalGold/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-3 space-x-reverse">
+                    <div class="w-12 h-12 rounded-full gold-gradient flex items-center justify-center text-royalBlue shadow-lg text-2xl font-black">
+                        <i class="fa-solid fa-plane-departure"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl sm:text-2xl font-black tracking-wider text-white block">الأجنحة الملكية</span>
+                        <span class="text-xs text-royalGold font-semibold tracking-widest block">أكاديمية الطيران والعلوم التطبيقية</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 space-x-reverse font-medium">
+                    <a href="#about" class="hover:text-royalGold transition-colors">عن الأكاديمية</a>
+                    <a href="#features" class="hover:text-royalGold transition-colors">مميزات الدراسة</a>
+                    <a href="#departments" class="hover:text-royalGold transition-colors">الأقسام المتاحة</a>
+                    <a href="#register" class="hover:text-royalGold transition-colors">شروط التقديم</a>
+                    <a href="#contact" class="hover:text-royalGold transition-colors">اتصل بنا</a>
+                </div>
+                <div>
+                    <a href="#register" class="gold-gradient text-royalBlue font-bold px-5 py-2.5 rounded-xl shadow-lg hover:opacity-90 transition transform hover:scale-105 inline-flex items-center gap-2">
+                        <i class="fa-solid fa-pen-to-square"></i> سجل الآن
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-white py-20 lg:py-32 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 bg-royalGold/20 border border-royalGold text-royalGold px-4 py-1.5 rounded-full text-sm font-bold mb-6 animate-pulse">
+                <i class="fa-solid fa-fire text-amber-400"></i> فتح باب التقديم والقبول والتسجيل لدفعة 2026 - 2027 🔥🔥
+            </div>
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-6 leading-tight">
+                اكاديمية الاجنحه الملكيه للطيران <br>
+                <span class="text-royalGold">بوابتك نحو مستقبل مهني محترف</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-10 leading-relaxed font-tajawal">
+                متاح لطلاب الشهادة السودانية الناجحين، وتوجد فرص قليلة لشهادة الإكمال وأي شهادة ثانوية أخرى دون التقيد بنسبة أو مساق! معتمدون محلياً ودولياً.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#register" class="gold-gradient text-royalBlue font-extrabold px-8 py-4 rounded-2xl shadow-xl hover:opacity-95 transition text-lg flex items-center gap-3">
+                    <i class="fa-solid fa-graduation-cap"></i> ابدأ التسجيل الإلكتروني الآن
+                </a>
+                <a href="#departments" class="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-bold px-8 py-4 rounded-2xl transition text-lg backdrop-blur-sm flex items-center gap-3">
+                    <i class="fa-solid fa-list-check"></i> تصفح الأقسام المتاحة
+                </a>
+            </div>
+            
+            <!-- Quick info badges -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-16 pt-8 border-t border-white/10 text-center">
+                <div class="bg-royalBlue/60 backdrop-blur border border-royalGold/20 p-4 rounded-2xl">
+                    <div class="text-royalGold text-2xl font-black mb-1"><i class="fa-solid fa-location-dot"></i> المقر</div>
+                    <div class="text-sm text-slate-300">الخرطوم - المقرن (شرق زين والتعاونية)</div>
+                </div>
+                <div class="bg-royalBlue/60 backdrop-blur border border-royalGold/20 p-4 rounded-2xl">
+                    <div class="text-royalGold text-2xl font-black mb-1"><i class="fa-solid fa-award"></i> الاعتماد</div>
+                    <div class="text-sm text-slate-300">معتمدون محلياً ودولياً</div>
+                </div>
+                <div class="bg-royalBlue/60 backdrop-blur border border-royalGold/20 p-4 rounded-2xl">
+                    <div class="text-royalGold text-2xl font-black mb-1"><i class="fa-solid fa-graduation-cap"></i> القبول</div>
+                    <div class="text-sm text-slate-300">بدون تقيد بنسبة أو مساق</div>
+                </div>
+                <div class="bg-royalBlue/60 backdrop-blur border border-royalGold/20 p-4 rounded-2xl">
+                    <div class="text-royalGold text-2xl font-black mb-1"><i class="fa-solid fa-laptop-code"></i> الدراسة</div>
+                    <div class="text-sm text-slate-300">حضور مباشر وأونلاين</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black text-royalBlue mb-4">مميزات الدراسة في أكاديمية الأجنحة الملكية</h2>
+                <div class="w-24 h-1.5 gold-gradient mx-auto rounded-full mb-6"></div>
+                <p class="text-slate-600 text-lg font-tajawal">نوفر لك بيئة أكاديمية متكاملة تدمج بين التدريب العملي الميداني والمناهج الدولية لضمان تفوقك في سوق العمل.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-royalLight p-8 rounded-3xl border border-royalGold/20 hover:border-royalGold transition shadow-sm hover:shadow-xl group">
+                    <div class="w-16 h-16 rounded-2xl gold-gradient flex items-center justify-center text-royalBlue text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-royalBlue mb-3">شهادات محلية ودولية</h3>
+                    <p class="text-slate-600 font-tajawal leading-relaxed">يحصل الطلاب على شهادات محلية ودولية معتمدة تؤهلك للعمل فوراً داخل وخارج السودان.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-royalLight p-8 rounded-3xl border border-royalGold/20 hover:border-royalGold transition shadow-sm hover:shadow-xl group">
+                    <div class="w-16 h-16 rounded-2xl gold-gradient flex items-center justify-center text-royalBlue text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-plane-circle-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-royalBlue mb-3">رحلات علمية وزيارات ميدانية</h3>
+                    <p class="text-slate-600 font-tajawal leading-relaxed">برامج تدريبية ورحلات ميدانية حية لمواقع المطارات والشركات لربط المنهج النظري بالواقع العملي.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-royalLight p-8 rounded-3xl border border-royalGold/20 hover:border-royalGold transition shadow-sm hover:shadow-xl group">
+                    <div class="w-16 h-16 rounded-2xl gold-gradient flex items-center justify-center text-royalBlue text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-royalBlue mb-3">الزي الرسمي (الطيارين)</h3>
+                    <p class="text-slate-600 font-tajawal leading-relaxed">توفير الزي الموحد الراقي الخاص بقطاع الطيران لتعزيز الانضباط والهيبة المهنية للطلاب.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-royalLight p-8 rounded-3xl border border-royalGold/20 hover:border-royalGold transition shadow-sm hover:shadow-xl group">
+                    <div class="w-16 h-16 rounded-2xl gold-gradient flex items-center justify-center text-royalBlue text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-royalBlue mb-3">فترات دراسية مرنة</h3>
+                    <p class="text-slate-600 font-tajawal leading-relaxed">خيارات متعددة ومجموعات دراسية (صباحية ومسائية) لتناسب كافة ظروف الطلاب والعاملين.</p>
+                </div>
+                <!-- Feature 5 -->
+                <div class="bg-royalLight p-8 rounded-3xl border border-royalGold/20 hover:border-royalGold transition shadow-sm hover:shadow-xl group">
+                    <div class="w-16 h-16 rounded-2xl gold-gradient flex items-center justify-center text-royalBlue text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-royalBlue mb-3">نظام دراسة سمسترات</h3>
+                    <p class="text-slate-600 font-tajawal leading-relaxed">دراسة أكاديمية منظمة بنظام الفصول الدراسية (السمسترات) المعتمدة علمياً.</p>
+                </div>
+                <!-- Feature 6 -->
+                <div class="bg-royalLight p-8 rounded-3xl border border-royalGold/20 hover:border-royalGold transition shadow-sm hover:shadow-xl group">
+                    <div class="w-16 h-16 rounded-2xl gold-gradient flex items-center justify-center text-royalBlue text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-royalBlue mb-3">مقر استراتيجي بالخرطوم</h3>
+                    <p class="text-slate-600 font-tajawal leading-relaxed">المقرن - شرق برج شركة زين وبرج التعاونية للتأمين لسهولة الوصول والمواصلات.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-royalGold font-bold uppercase tracking-widest text-sm block mb-2">تخصصات المستقبل</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-royalBlue mb-4">الأقسام والكليات المتاحة دفعة 2026-2027</h2>
+                <div class="w-24 h-1.5 gold-gradient mx-auto rounded-full mb-6"></div>
+                <p class="text-slate-600 text-lg font-tajawal">اختر تخصصك الأنسب من بين باقة واسعة من أقسام الطيران وإدارة الأعمال والتكنولوجيا الحديثة.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Dept 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-passport"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">إدارة الجمارك</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">إجراءات التخليص الجمركي والقوانين الدولية والمحلية.</p>
+                    </div>
+                </div>
+                <!-- Dept 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-boxes-packing"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">الشحن الجوي</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">إدارة البضائع الخطرة وسلاسل الإمداد والشحن الجوي الدولي.</p>
+                    </div>
+                </div>
+                <!-- Dept 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-hotel"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">الفندقة والسياحة</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">إدارة الضيافة الفندقية والخدمات السياحية العالمية.</p>
+                    </div>
+                </div>
+                <!-- Dept 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-plane-departure"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">وكالات السفر والسياحة</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">حجز تذاكر الطيران، الأنظمة العالمية، وتنظيم الرحلات.</p>
+                    </div>
+                </div>
+                <!-- Dept 5 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-users-gear"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">المناولة الأرضية وخدمات الركاب</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">إدارة خدمات الطائرات الأرضية واستقبال وخدمة الركاب بالمطارات.</p>
+                    </div>
+                </div>
+                <!-- Dept 6 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-tower-observation"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">إدارة المطارات</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">تشغيل وإدارة المطارات وأمن الطيران المدني.</p>
+                    </div>
+                </div>
+                <!-- Dept 7 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-language"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">الترجمة واللغات</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">الترجمة الفورية والمكتوبة وإتقان لغات الطيران العالمية.</p>
+                    </div>
+                </div>
+                <!-- Dept 8 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-bullhorn"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">الإعلام والعلاقات العامة</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">مهارات الاتصال المؤسسي وإدارة الحملات الإعلامية.</p>
+                    </div>
+                </div>
+                <!-- Dept 9 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">تقنية المعلومات</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">البرمجيات، الشبكات، وأمن المعلومات المتقدم.</p>
+                    </div>
+                </div>
+                <!-- Dept 10 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-chart-pie"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">المحاسبة المالية والتمويل</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">الأنظمة المالية والمحاسبية وإدارة الحسابات بالمؤسسات.</p>
+                    </div>
+                </div>
+                <!-- Dept 11 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-brain"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">الذكاء الاصطناعي</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">تعلم الآلة وتطبيقات الذكاء الاصطناعي الحديثة.</p>
+                    </div>
+                </div>
+                <!-- Dept 12 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-royalGold hover:-translate-y-1 transition flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-royalBlue text-royalGold flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-microphone-lines"></i></div>
+                    <div>
+                        <h3 class="font-bold text-royalBlue text-lg mb-1">الإذاعة والتلفزيون والصحافة</h3>
+                        <p class="text-xs text-slate-500 font-tajawal">التقديم الإذاعي والتلفزيوني وفنون الصحافة والإعداد.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="register" class="py-20 bg-royalBlue text-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-slate-900/90 border border-royalGold/40 rounded-3xl p-8 sm:p-12 shadow-2xl backdrop-blur-lg">
+                <div class="text-center mb-10">
+                    <span class="bg-royalGold text-royalBlue font-black px-4 py-1.5 rounded-full text-xs uppercase tracking-wider inline-block mb-3">نموذج القبول والتسجيل الذكي</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white">سجل بياناتك الآن وانضم لدفعة 2026-2027</h2>
+                    <p class="text-slate-400 mt-2 font-tajawal text-sm sm:text-base">قم بملء الحقول أدناه، اختر رقم الواتساب لإرسال البيانات مباشرة إلى إدارة الأكاديمية.</p>
+                </div>
+
+                <form id="regForm" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Full Name -->
+                        <div>
+                            <label class="block text-sm font-bold text-royalGold mb-2"><i class="fa-solid fa-user"></i> الاسم الثلاثي للطالب *</label>
+                            <input type="text" id="fullName" required placeholder="مثال: أحمد محمد علي" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-royalGold font-tajawal">
+                        </div>
+                        <!-- Phone Number -->
+                        <div>
+                            <label class="block text-sm font-bold text-royalGold mb-2"><i class="fa-solid fa-phone"></i> رقم الهاتف (واتساب) *</label>
+                            <input type="tel" id="phoneNumber" required placeholder="مثال: 0912345678" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-royalGold font-tajawal">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Certificate Type -->
+                        <div>
+                            <label class="block text-sm font-bold text-royalGold mb-2"><i class="fa-solid fa-certificate"></i> نوع الشهادة الثانوية *</label>
+                            <select id="certType" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-royalGold font-tajawal">
+                                <option value="">-- اختر نوع الشهادة --</option>
+                                <option value="الشهادة السودانية">الشهادة السودانية</option>
+                                <option value="شهادة الإكمال">شهادة الإكمال</option>
+                                <option value="شهادة أخرى ثانوية">شهادة أخرى ثانوية</option>
+                            </select>
+                        </div>
+                        <!-- Department -->
+                        <div>
+                            <label class="block text-sm font-bold text-royalGold mb-2"><i class="fa-solid fa-book-open"></i> القسم أو التخصص المرغوب *</label>
+                            <select id="department" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-royalGold font-tajawal">
+                                <option value="">-- اختر القسم الأكاديمي --</option>
+                                <option value="إدارة الجمارك">إدارة الجمارك</option>
+                                <option value="الشحن الجوي">الشحن الجوي</option>
+                                <option value="الفندقة والسياحة">الفندقة والسياحة</option>
+                                <option value="وكالات السفر والسياحة">وكالات السفر والسياحة</option>
+                                <option value="المناولة الأرضية وخدمات الركاب">المناولة الأرضية وخدمات الركاب</option>
+                                <option value="إدارة المطارات">إدارة المطارات</option>
+                                <option value="الترجمة واللغات">الترجمة واللغات</option>
+                                <option value="الإعلام والعلاقات العامة">الإعلام والعلاقات العامة</option>
+                                <option value="تقنية المعلومات">تقنية المعلومات</option>
+                                <option value="المحاسبة المالية والتمويل">المحاسبة المالية والتمويل</option>
+                                <option value="الذكاء الاصطناعي">الذكاء الاصطناعي</option>
+                                <option value="الإذاعة والتلفزيون والصحافة">الإذاعة والتلفزيون والصحافة</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Study Period -->
+                        <div>
+                            <label class="block text-sm font-bold text-royalGold mb-2"><i class="fa-solid fa-sun"></i> الفترة الدراسية *</label>
+                            <select id="studyPeriod" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-royalGold font-tajawal">
+                                <option value="">-- اختر الفترة --</option>
+                                <option value="مجموعة صباحية">مجموعة صباحية</option>
+                                <option value="مجموعة مسائية">مجموعة مسائية</option>
+                            </select>
+                        </div>
+                        <!-- Target WhatsApp Number -->
+                        <div>
+                            <label class="block text-sm font-bold text-royalGold mb-2"><i class="fa-brands fa-whatsapp text-emerald-400"></i> اختر رقم الواتساب للإرسال الفوري *</label>
+                            <select id="whatsappNumber" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-royalGold font-tajawal">
+                                <option value="249912205587">رقم (1): 0912205587</option>
+                                <option value="249922128799">رقم (2): 0922128799</option>
+                                <option value="249123753705">رقم (3): 0123753705</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- File Uploads Notes -->
+                    <div class="bg-slate-800/80 border border-dashed border-royalGold/40 p-4 rounded-xl text-center">
+                        <p class="text-xs text-slate-300 font-tajawal mb-2">
+                            <i class="fa-solid fa-folder-open text-royalGold"></i> الأوراق المطلوبة للتسجيل اللاحق: (صورة المؤهل + صورة إثبات الشخصية + 4 صور شخصية).
+                        </p>
+                        <p class="text-xs text-amber-400">عند الضغط على زر الإرسال، سيتم تجهيز رسالة التسجيل الخاصة بك وتحويلك مباشرة لتطبيق الواتساب مع البيانات المدخلة.</p>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center pt-4">
+                        <button type="button" onclick="sendToWhatsApp()" class="gold-gradient text-royalBlue font-black text-lg px-8 py-4 rounded-2xl shadow-xl hover:opacity-90 transition transform hover:scale-105 w-full sm:w-auto inline-flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i> إرسال استمارة التسجيل عبر الواتساب فوراً
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact" class="bg-slate-950 text-white pt-16 pb-12 border-t border-royalGold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
+                <!-- Col 1: About Footer -->
+                <div>
+                    <div class="flex items-center space-x-3 space-x-reverse mb-4">
+                        <div class="w-10 h-10 rounded-full gold-gradient flex items-center justify-center text-royalBlue font-black text-xl">
+                            <i class="fa-solid fa-plane-departure"></i>
+                        </div>
+                        <span class="text-lg font-bold">الأجنحة الملكية للطيران</span>
+                    </div>
+                    <p class="text-slate-400 text-sm font-tajawal leading-relaxed">
+                        أكاديمية رائدة في تدريس و تأهيل كوادر قطاع الطيران والملاحة، الإدارة، والتكنولوجيا الحديثة معتمدة محلياً ودولياً.
+                    </p>
+                </div>
+
+                <!-- Col 2: Location -->
+                <div>
+                    <h3 class="text-royalGold font-bold text-lg mb-4 border-b border-slate-800 pb-2">مقر الأكاديمية الرئيسي</h3>
+                    <p class="text-slate-300 text-sm font-tajawal mb-2 flex items-start gap-2">
+                        <i class="fa-solid fa-location-dot text-royalGold mt-1"></i>
+                        <span>الخرطوم - المقرن، شرق برج شركة زين وبرج التعاونية للتأمين.</span>
+                    </p>
+                    <p class="text-slate-400 text-xs font-tajawal">التسجيل متاح حضورياً بمقر الأكاديمية أو عبر الأونلاين.</p>
+                </div>
+
+                <!-- Col 3: Direct Contacts -->
+                <div>
+                    <h3 class="text-royalGold font-bold text-lg mb-4 border-b border-slate-800 pb-2">أرقام التواصل الرسمية</h3>
+                    <div class="space-y-2 text-sm font-tajawal">
+                        <a href="https://wa.me/249912205587" target="_blank" class="flex items-center gap-2 text-slate-300 hover:text-royalGold transition">
+                            <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i> 0912205587
+                        </a>
+                        <a href="https://wa.me/249922128799" target="_blank" class="flex items-center gap-2 text-slate-300 hover:text-royalGold transition">
+                            <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i> 0922128799
+                        </a>
+                        <a href="https://wa.me/249123753705" target="_blank" class="flex items-center gap-2 text-slate-300 hover:text-royalGold transition">
+                            <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i> 0123753705
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 text-center text-xs text-slate-500 font-tajawal">
+                جميع الحقوق محفوظة © أكاديمية الأجنحة الملكية للطيران دفعة 2026-2027.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function sendToWhatsApp() {
+            // Retrieve form values
+            const fullName = document.getElementById('fullName').value.trim();
+            const phoneNumber = document.getElementById('phoneNumber').value.trim();
+            const certType = document.getElementById('certType').value;
+            const department = document.getElementById('department').value;
+            const studyPeriod = document.getElementById('studyPeriod').value;
+            const targetWhatsapp = document.getElementById('whatsappNumber').value;
+
+            // Validate fields
+            if (!fullName || !phoneNumber || !certType || !department || !studyPeriod) {
+                // Custom friendly message box instead of alert()
+                alert('الرجاء تعبئة جميع الحقول المطلوبة قبل الإرسال.');
+                return;
+            }
+
+            // Construct WhatsApp message with accurate details
+            const message = `السلام عليكم إدارة أكاديمية الأجنحة الملكية للطيران، أرغب في التسجيل والانضمام للأكاديمية دفعة 2026-2027:%0a%0a` +
+                            `👤 الاسم الثلاثي: ${fullName}%0a` +
+                            `📞 رقم الهاتف: ${phoneNumber}%0a` +
+                            `📜 نوع الشهادة: ${certType}%0a` +
+                            `🎓 القسم المرغوب: ${department}%0a` +
+                            `⏰ الفترة الدراسية: ${studyPeriod}%0a%0a` +
+                            `أرجو تأكيد قبول التسجيل واستكمال بقية الإجراءات والأوراق المطلوبة. شكراً جزيلاً.`;
+
+            // Open WhatsApp link with the selected number
+            const whatsappUrl = `https://wa.me/${targetWhatsapp}?text=${message}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+
+</body>
+</html>
